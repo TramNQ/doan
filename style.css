@@ -57,20 +57,25 @@ nav ul li a{
 }
 
 ul .box-search{
+    float: left;
+    height: 100%;
     position: absolute;
     left: 25%;
-    top: 0;
+    top: 25%;
 }
 
 button{
+    width: 100px;
     box-sizing: border-box;
     border: 1px solid black;
     outline:none;
     padding: 6px;
+    float: right;
+    height: 100%;
 }
 
 input[type="text"] {
-    width: 130px;
+    width: 370px;
     box-sizing: border-box;
     border: 1px solid black;
     outline:none;
