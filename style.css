@@ -56,6 +56,12 @@ nav ul li a{
    text-transform: uppercase;
 }
 
+ul .box-search{
+    position: absolute;
+    left: 25%;
+    top: 0;
+}
+
 /* nav ul li a:before{
    content: '';
    position: absolute;
