@@ -56,11 +56,23 @@ nav ul li a{
    text-transform: uppercase;
 }
 
+nav ul li p{
+    position: relative;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+ }
+
 ul .box-search{
     float: left;
     height: 100%;
     position: absolute;
-    left: 25%;
+    left: 35%;
     top: 25%;
 }
 
@@ -80,4 +92,37 @@ input[type="text"] {
     border: 1px solid black;
     outline:none;
     padding: 7px;
+}
+
+.menubook{
+    position: absolute;
+    float: left;
+    height: 100%;
+    left: 22%;
+    top: 0%;
+    display: block;
+    line-height: 60px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #666666;
+    line-height: 5px;
+    min-width: 200px;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+    padding: 6px 8px;
+    z-index: 1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
 }
