@@ -55,9 +55,9 @@ nav ul li{
 nav ul li a{
    position: relative;
    display: block;
-   height: 80px;
+   height: 60px;
    line-height: 60px;
-   padding: 0 20px;
+   padding: 0 15px;
    box-sizing: border-box;
    color: #fff;
    text-decoration: none;
@@ -133,9 +133,46 @@ input[type="text"] {
     background: black;
     box-shadow: 0px 4px 7px blanchedalmond;
     z-index: 2;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
 }
-
 .panel:target{
     margin-top: 0%;
     background-color: rgb(195, 226, 155);
+}
+.content{
+    right: 40px;
+    left: 472px;
+    top: 15px;
+    position: absolute;
+    padding-bottom: 30px;
+}
+
+.content h2{
+    font-size: 50px;
+    padding: 10px 0px 20px 0px;
+    margin-top: 52px;
+    color: burlywood;
+    color: rgb(4, 0, 255);
+    text-shadow: 0px 1px 1px blanchedalmond;
+}
+
+.content p{
+    font-size: 32px;
+    padding: 15px;
+    line-height: 24px;
+    color: black;
+    display: inline-block;
+    background: transparent;
+    padding: 10px;
+    margin: 5px 5px;
+}
+
+.content b{
+    font-size: 48px;
+}
+.content b1{
+    font-size: 18px;
 }
