@@ -1,7 +1,20 @@
+*{
+    margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Roboto;
+}
 body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: url(https://images.unsplash.com/photo-1588421357574-87938a86fa28?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80);
+    background-size: cover;
 }
 
 nav{
@@ -112,8 +125,8 @@ input[type="text"] {
     display: none;
     position: absolute;
     background-color: #666666;
-    line-height: 5px;
-    min-width: 200px;
+    line-height: 35px;
+    min-width: 150px;
     box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
     padding: 6px 8px;
     z-index: 1;
@@ -121,4 +134,130 @@ input[type="text"] {
   
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 30px 100px;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/*Thiết Lập Cho Thành Phần Nội Dung Giới Thiệu*/
+footer .container .noi-dung{
+    position: relative;
+    width: 300px;
+}
+footer  .container .noi-dung.about{
+    width: 300px;
+}
+footer .container .noi-dung.about h2{
+    position: relative;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+footer .container .noi-dung.about h2:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #0000ff;
+}
+footer .container .noi-dung.about p{
+    color: #999;
+}
+
+/*duong dan*/
+.links h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.links h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #0000ff;
+}
+.links{
+   position: relative;
+   width: 200px;
+}
+.links ul li{
+    list-style: none;
+}
+.links ul li a{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.links ul li a:hover{
+    color: #fff;
+}
+
+/*lien he*/
+.contact h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.contact h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #0000ff;
+}
+.contact{
+    position: relative;
+    width: 350px;
+}
+.contact .info{
+    position: relative;
+    width: 350px;
+}
+.contact .info li{
+    display: flex;
+    margin-bottom: 20px;
+}
+.contact .info li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.contact .info li span{
+    color: #999;
+}
+.contact .info li a{
+    color: #999;
+    text-decoration: none;
 }
