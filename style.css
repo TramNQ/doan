@@ -168,6 +168,7 @@ footer .container .noi-dung{
 }
 footer  .container .noi-dung.about{
     width: 300px;
+    line-height: 25px;
 }
 footer .container .noi-dung.about h2{
     position: relative;
@@ -244,6 +245,7 @@ footer .container .noi-dung.about p{
 .contact .info{
     position: relative;
     width: 350px;
+    line-height: 15px;
 }
 .contact .info li{
     display: flex;
